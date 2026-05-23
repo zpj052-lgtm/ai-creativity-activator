@@ -2,6 +2,7 @@ import os
 import json
 import time
 import argparse
+import random
 from agents import LawFinder, ProblemCollider, IdeaJudge
 
 def main():
@@ -30,10 +31,12 @@ def main():
     
     for i in range(1, iterations + 1):
         try:
-            print(f"\n--- 正在进行第 {i}/{iterations} 次文学碰撞 ---")
+            # 小说领域使用指定的丰富来源库
+            novel_domains = ["news", "myth", "joke", "comment", "science", "cases"]
+            domain = random.choice(novel_domains)
+            print(f"\n--- 正在进行第 {i}/{iterations} 次文学碰撞 [场景: {domain}] ---")
             
-            # 小说情节通常用 science 规律碰撞效果更硬核
-            law = finder.find_law(domain="science", used_laws=used_laws[-10:])
+            law = finder.find_law(domain=domain, used_laws=used_laws[-10:])
             used_laws.append(law.split('\n')[0])
             print(f"🔍 找到硬核规律: {law.split('\n')[0]}")
             

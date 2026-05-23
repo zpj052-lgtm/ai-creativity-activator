@@ -30,9 +30,9 @@ def main():
     
     for i in range(1, iterations + 1):
         try:
-            print(f"\n--- 正在进行第 {i}/{iterations} 次人文学科碰撞 ---")
+            print(f"\n--- 正在进行第 {i}/{iterations} 次外贸碰撞 [来源: humanities] ---")
             
-            # 1. 寻找规律 (切换到 humanities 模式)
+            # 外贸领域固定使用人文、心理与商学规律
             law = finder.find_law(domain="humanities", used_laws=used_laws[-10:])
             used_laws.append(law.split('\n')[0])
             print(f"🔍 找到人文规律: {law.split('\n')[0]}")
