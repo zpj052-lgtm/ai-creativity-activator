@@ -1,56 +1,47 @@
-# Market-Collision-Machine (市场碰撞机器) 🚀
+# Cross-Domain Collision Machine (跨界碰撞机器) 🚀
 
-> **让“自然规律”与“股市难题”正面碰撞，激发跨界量化灵感。**
+> **让“自然规律”与“人文学科”碰撞“外贸/金融难题”，激发跨时空的商业灵感。**
 
 [English](./README_EN.md) | [中文](./README.md)
 
-## 💡 核心理念
+## 🌟 核心理念：为什么本想法很“牛B”？
 
-人类最伟大的发明往往源于不同领域的规律碰撞。看到鸟飞想到飞机，看到重力想到万有引力。
+大多数人的思维局限在自己的专业领域（专业隔离）。
+本项目是一个基于 DeepSeek 开发的**多智能体创新引擎**。它不直接思考生意，而是先从物理学（如流体力学）、生物学（如共生网络）或人文学科（如认知失调、损失厌恶）中挖掘底层规律，强制将其与复杂的商业难题进行逻辑对齐。
 
-**“市场碰撞机器”** 是一个基于 DeepSeek 开发的多智能体系统。它不直接思考股市，而是先从物理、生物、化学等大自然几十亿年攒下的“规律库”中寻找启示，强制将其与复杂的金融市场问题进行逻辑对齐。
+**外贸版特辑**：利用人性的心理弱点（认知失调）来识别正处于更换供应商临界点的客户，比传统的价格战要高效一个量级。
 
 ### 系统架构
-1.  **规律搜索者 (Law Finder)**: 挖掘大自然中的底层定律（如热力学、流体力学、自组织临界性等）。
-2.  **创意碰撞者 (Problem Collider)**: 将非相关的定律强行映射到股市难题，生成全新的量化策略雏形。
+1.  **规律搜索者 (Law Finder)**: 挖掘大自然或人文学科中的底层定律。
+2.  **创意碰撞者 (Problem Collider)**: 将非相关的定律强行映射到外贸获客或金融难题，生成全新的策略。
 3.  **逻辑裁判 (Idea Judge)**: 从逻辑、创新和实战潜力三个维度对“碰撞产出”进行严苛打分。
 
 ## 🛠️ 安装与使用
 
 ### 1. 环境准备
 ```bash
-git clone https://github.com/your-username/market-collision-machine.git
-cd market-collision-machine
+git clone https://github.com/your-username/cross-domain-collision.git
+cd cross-domain-collision
 pip install -r requirements.txt
 ```
 
 ### 2. 配置 API Key
-在环境变量中设置您的 DeepSeek Key：
-```bash
-# Windows
-setx DEEPSEEK_API_KEY "您的API_KEY"
+在系统中设置环境变量 `DEEPSEEK_API_KEY`。
 
-# Linux/macOS
-export DEEPSEEK_API_KEY="您的API_KEY"
-```
+### 3. 开始碰撞
+- **外贸模式**:
+  ```bash
+  python collision_machine_trade.py --iterations 10
+  ```
+- **股票模式**:
+  ```bash
+  python collision_machine.py --iterations 10
+  ```
 
-### 3. 运行碰撞
-```bash
-python collision_machine.py --iterations 100 --problem "如何捕捉极度恐慌后的暴力反转？"
-```
+## 💎 经典案例 (外贸精选)
 
-## 🌟 精彩案例展示
+### 案例：认知失调理论 × 供应商切换 (得分: 9.0)
+**策略**：设计“低门槛试水服务”。一旦客户采取了微小的“背叛”原供应商的行为，大脑会为了消除认知失调而自动寻找原供应商的缺点。这才是真正的“降维打击”。
 
-### 案例 1：生物自组装律 × 情绪反转 (得分: 7.5)
-将 VIX 指数定义为“市场温度”，基本面支撑定义为“分子结合能”。利用自组装临界尺度律预测反弹的特征尺度。
-
-### 案例 2：反应-扩散系统 × 混沌边缘 (得分: 8.1)
-监控恐慌产生的“超熵率”（二阶导数），在系统锁定的瞬间捕捉不可伪造的反转信号。
-
-## 📝 路线图
-- [ ] 支持更多 LLM 模型接入。
-- [ ] 增加 Web 界面展示碰撞报告。
-- [ ] 自动接入量化数据接口进行历史回测验证。
-
-## 📄 开源协议
-本项目采用 [MIT License](LICENSE) 协议开源。
+## 📄 开源说明
+本项目是一个**概念框架**，旨在抛砖引玉。欢迎所有人 Fork 并改造出属于自己的“行业碰撞机”。

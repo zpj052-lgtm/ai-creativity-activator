@@ -17,9 +17,14 @@ class BaseAgent:
         return response.choices[0].message.content
 
 class LawFinder(BaseAgent):
-    def find_law(self, used_laws=None):
-        system_prompt = "你是一个博学的科学家。你需要提供一个来自物理学、生物学、化学或自然界的底层规律、现象或原理。这个规律必须是具体的、可解释的。"
-        user_prompt = "请提供一个新的自然规律。如果是关于流体力学、热力学、生物进化、电磁学等领域的更佳。请给出规律名称和简短描述。"
+    def find_law(self, domain="science", used_laws=None):
+        if domain == "humanities":
+            system_prompt = "你是一个洞察深刻的人文精神方案专家。你需要提供一个来自心理学、行为经济学、社会学、传播学或管理学的底层规律、效应或实验结论。这个规律必须能揭示人性、群体行为或商业竞争的本质。"
+            user_prompt = "请提供一个新的社会科学/人文学科规律。例如关于锚定效应、破窗效应、幸存者偏差、马太效应、非零和博弈等领域的规律。请给出规律名称和简短描述。"
+        else:
+            system_prompt = "你是一个博学的科学家。你需要提供一个来自物理学、生物学、化学或自然界的底层规律、现象或原理。这个规律必须是具体的、可解释的。"
+            user_prompt = "请提供一个新的自然规律。如果是关于流体力学、热力学、生物进化、电磁学等领域的更佳。请给出规律名称和简短描述。"
+            
         if used_laws:
             user_prompt += f"\n已经使用过的规律包括: {', '.join(used_laws)}。请不要重复。"
         

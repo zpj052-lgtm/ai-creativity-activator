@@ -1,51 +1,46 @@
-# Market-Collision-Machine 🚀
+# Cross-Domain Collision Machine 🚀
 
-> **Let Nature's Laws collide with Stock Market problems to trigger cross-disciplinary quantitative inspiration.**
+> **Let Natural Laws and Humanities collide with Business & Trade problems to trigger cross-disciplinary innovation.**
 
 [English](./README_EN.md) | [中文](./README.md)
 
-## 💡 Core Concept
+## 🌟 The Philosophy: Why is this Awesome?
 
-Humanity's greatest inventions often stem from the collision of laws from different fields. Seeing birds fly led to planes; seeing gravity led to universal gravitation.
+Most people are trapped in their own professional silos. This project is a **Multi-Agent Innovation Engine** powered by DeepSeek. It doesn't analyze business directly; instead, it excavates fundamental laws from Science (e.g., Fluid Dynamics) and Humanities (e.g., Cognitive Dissonance, Loss Aversion) and forcefully aligns them with complex business challenges.
 
-**"Market-Collision-Machine"** is a multi-agent system built on DeepSeek. Instead of over-analyzing the stock market directly, it first seeks fundamental laws from the "Library of Nature" (Physics, Biology, Chemistry) accumulated over billions of years, and forcefully aligns them with complex financial market problems.
+**Foreign Trade Edition**: Using psychological triggers to identify clients at the "supplier switching threshold" is an order of magnitude more efficient than traditional price wars.
 
 ### System Architecture
-1.  **Law Finder**: Excavates underlying laws of nature (e.g., Thermodynamics, Fluid Dynamics, Self-Organized Criticality).
-2.  **Problem Collider**: Maps unrelated laws to stock market problems, generating entirely new quant strategy prototypes.
-3.  **Idea Judge**: Strictly scores the "Collision Outputs" from three dimensions: Logic, Innovation, and Potential.
+1.  **Law Finder**: Excavates underlying laws from Science or Humanities.
+2.  **Problem Collider**: Maps unrelated laws to Trade or Quant problems, generating entirely new strategies.
+3.  **Idea Judge**: Critically scores outputs based on Logic, Innovation, and Potential.
 
-## 🛠️ Installation & Usage
+## 🛠️ Setup & Usage
 
-### 1. Setup
+### 1. Installation
 ```bash
-git clone https://github.com/your-username/market-collision-machine.git
-cd market-collision-machine
+git clone https://github.com/your-username/cross-domain-collision.git
+cd cross-domain-collision
 pip install -r requirements.txt
 ```
 
 ### 2. Configure API Key
-Set your DeepSeek Key in environment variables:
-```bash
-# Windows
-setx DEEPSEEK_API_KEY "YOUR_API_KEY"
-
-# Linux/macOS
-export DEEPSEEK_API_KEY="YOUR_API_KEY"
-```
+Set the environmental variable `DEEPSEEK_API_KEY`.
 
 ### 3. Run Collision
-```bash
-python collision_machine.py --iterations 100 --problem "How to capture violent reversals after extreme panic?"
-```
+- **Foreign Trade Mode**:
+  ```bash
+  python collision_machine_trade.py --iterations 10
+  ```
+- **Quant Mode**:
+  ```bash
+  python collision_machine.py --iterations 10
+  ```
 
-## 🌟 Case Studies
+## 💎 Selected Case Studies
 
-### Case 1: Bio-Self-Assembly × Sentiment Reversal (Score: 7.5)
-Defines VIX index as "Market Temperature" and fundamental support as "Molecular Binding Energy". Uses the Critical Scaling Law of self-assembly to predict the characteristics of the rebound.
-
-### Case 2: Reaction-Diffusion × Edge of Chaos (Score: 8.1)
-Monitors the "Super-Entropy Rate" (2nd derivative) of panic production to capture unfalsifiable reversal signals at the moment of system locking.
+### Case: Cognitive Dissonance × Supplier Switching (Score: 9.0)
+**Strategy**: Design low-threshold "trial services". Once a client takes a tiny "pre-betrayal" action, their brain automatically seeks flaws in the old supplier to eliminate cognitive dissonance. This is true "dimensionality reduction" in business.
 
 ## 📄 License
-This project is open-sourced under the [MIT License](LICENSE).
+Open-sourced under the [MIT License](LICENSE).
