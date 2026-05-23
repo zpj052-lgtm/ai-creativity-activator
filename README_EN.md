@@ -1,46 +1,40 @@
-# Cross-Domain Collision Machine 🚀
+# Multi-Source Collision Machine 🚀
 
-> **Let Natural Laws and Humanities collide with Business & Trade problems to trigger cross-disciplinary innovation.**
+> **Let Science, Humanities, Social News, Myths, and Jokes collide with ANY problem to trigger cross-disciplinary innovation.**
 
 [English](./README_EN.md) | [中文](./README.md)
 
-## 🌟 The Philosophy: Why is this Awesome?
+## 🌟 The Philosophy
 
-Most people are trapped in their own professional silos. This project is a **Multi-Agent Innovation Engine** powered by DeepSeek. It doesn't analyze business directly; instead, it excavates fundamental laws from Science (e.g., Fluid Dynamics) and Humanities (e.g., Cognitive Dissonance, Loss Aversion) and forcefully aligns them with complex business challenges.
-
-**Foreign Trade Edition**: Using psychological triggers to identify clients at the "supplier switching threshold" is an order of magnitude more efficient than traditional price wars.
+Most people are trapped in their own professional silos (Domain Dependence). 
+This project is a **Multi-Agent Innovation Engine** powered by DeepSeek. It avoids direct thinking; instead, it excavates fundamental concepts from diverse libraries (Science, Humanities, Myths, etc.) and forcefully aligns them with your target challenge.
 
 ### System Architecture
-1.  **Law Finder**: Excavates underlying laws from Science or Humanities.
-2.  **Problem Collider**: Maps unrelated laws to Trade or Quant problems, generating entirely new strategies.
+1.  **Concept Finder**: Excavates materials from 6 dimensions: Science, Humanities, News, Myths, Jokes, and Comments.
+2.  **Problem Collider**: Maps unrelated concepts to your problem, generating entirely new strategies or plot twists.
 3.  **Idea Judge**: Critically scores outputs based on Logic, Innovation, and Potential.
 
 ## 🛠️ Setup & Usage
 
 ### 1. Installation
 ```bash
-git clone https://github.com/your-username/cross-domain-collision.git
-cd cross-domain-collision
+git clone https://github.com/your-username/multi-source-collision.git
+cd multi-source-collision
 pip install -r requirements.txt
 ```
 
 ### 2. Configure API Key
 Set the environmental variable `DEEPSEEK_API_KEY`.
 
-### 3. Run Collision
-- **Foreign Trade Mode**:
+### 3. Start Colliding
+- **Mixed Mode** (Recommended):
   ```bash
-  python collision_machine_trade.py --iterations 10
+  python collision_machine_mixed.py --iterations 10 --problem "Your Problem"
   ```
-- **Quant Mode**:
+- **Creative Writing Mode**:
   ```bash
-  python collision_machine.py --iterations 10
+  python collision_machine_novel.py --iterations 5
   ```
-
-## 💎 Selected Case Studies
-
-### Case: Cognitive Dissonance × Supplier Switching (Score: 9.0)
-**Strategy**: Design low-threshold "trial services". Once a client takes a tiny "pre-betrayal" action, their brain automatically seeks flaws in the old supplier to eliminate cognitive dissonance. This is true "dimensionality reduction" in business.
 
 ## 📄 License
 Open-sourced under the [MIT License](LICENSE).
