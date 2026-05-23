@@ -1,4 +1,4 @@
-# Multi-Source Collision Machine (全领域全源碰撞机器) 🚀
+# 激活AI创意 (AI-Creativity-Activator) 🚀
 
 > **让“自然规律”、“人文学科”、“社会热点”、“神话传说”与“万物”碰撞，激发跨时空的创新灵感。**
 

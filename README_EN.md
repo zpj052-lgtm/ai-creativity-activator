@@ -1,4 +1,4 @@
-# Multi-Source Collision Machine 🚀
+# AI-Creativity-Activator (激活AI创意) 🚀
 
 > **Let Science, Humanities, Social News, Myths, and Jokes collide with ANY problem to trigger cross-disciplinary innovation.**
 
